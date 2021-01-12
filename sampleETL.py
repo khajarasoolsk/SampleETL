@@ -6,7 +6,7 @@ import csv
 FILEMASTERS = 'C:\\Users\\KhajaShaik\\Downloads\\masters.csv'
 
 def DateCal():
-#   Getting the Current Business date value from Calender
+#   Getting the Current Business date value from Calendar
     currentdt = dt.date.today()
     businessdt = currentdt - dt.timedelta(days=1)
     businessdate = businessdt.strftime("%Y-%m-%d")
